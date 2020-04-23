@@ -21,4 +21,4 @@ function repeatCharacter(char, num) {
   return result
 }
 
-console.log(towerBuilder(7))
+console.log(towerBuilder(20))
