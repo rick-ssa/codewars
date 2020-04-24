@@ -1,18 +1,30 @@
 
-function comp (array1, array2){
-  if (!array1 || !array2) return false
-
-  let set1 = new Set (array1)
-  let set2 = new Set (array2)
-  
-  if (set1.size !== set2.size) return false
-
-  for (item of set1) {
-    if (item < 0) return false
-    if (!set2.has (item ** 2)) return false
+function dirReduc(arr){
+  const oposites = {
+    SOUTH : 'NORTH',
+    NORTH : 'SOUTH',
+    WEST : 'EAST',
+    EAST : 'WEST'
   }
 
-  return true
+  for (let i=0; i<arr.length; i++) {
+    if (i !== 0) {
+      if (arr[i-1] === oposites[arr[i]]) {
+        arr.splice(i-1,2)
+        i -= 1
+        continue
+      }
+    }
+
+    if (i !== (arr.length - 1)) {
+      if (arr[i] === oposites[arr[i+1]]) {
+        arr.splice(i,2)
+        i -= 1
+        continue
+      }
+    }
+  }
+  return arr
 }
 
-console.log(comp([2], [5]))
+console.log (dirReduc ( ["NORTH", "WEST", "SOUTH", "EAST"] ))
