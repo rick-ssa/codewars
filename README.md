@@ -1,4 +1,4 @@
-# CODEWARS CHALLANGES
+# CODEWARS CHALLENGES
 
 These are some challenges I have done on codewars platform. All solutions to these challenges were provided by me. Feel free to look at them, but try to solve the problem by yourself.
 
