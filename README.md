@@ -3,7 +3,6 @@
 This is some challenges I have done on [codewars](https://www.codewars.com/users/rick-ssa) platform.
 All solutions to these challenges were provide by me. Feel free to look at them, but try solve the problem by yourself.
 
-*** Only pick to have some base to start ***
 
 | FOLDER | CHALLENGE |
 |--------|-----------|
@@ -19,3 +18,5 @@ All solutions to these challenges were provide by me. Feel free to look at them,
 |trianglesides | Return true if is possible make a triangle with 3 given values   |
 |twotoone | Given two strings turn it in one where the letters are ordered and not repeated   |
 |weight | Given an array containing numbers, order it by the sum of their digits   |
+
+**_Only pick to have some base to start_**
