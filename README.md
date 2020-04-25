@@ -1,15 +1,14 @@
 # CODEWARS CHALLANGES
 
-This is some challenges I have done on [codewars](https://www.codewars.com/users/rick-ssa) platform.
-All solutions to these challenges were provide by me. Feel free to look at them, but try solve the problem by yourself.
+These are some challenges I have done on codewars platform. All solutions to these challenges were provided by me. Feel free to look at them, but try to solve the problem by yourself.
 
 
 | \# | FOLDER | CHALLENGE |
 |----|--------|-----------|
-|1|buildtower | Build a piramyd with '*' based on floors number provide as parameter of a function   |
+|1|buildtower | Build a pyramid with '*' based on floors number provide as parameter of a function   |
 |2|capitalize | Capitalize every first letter in a word   |
-|3|directionsreduce | Reduce the redudant direction given in an array   |
-|4|duration | Given a amount of seconds turn it in year day hour minute and second   |
+|3|directionsreduce | Reduce the redundant direction given in an array   |
+|4|duration | Given a number of seconds turn it in year day hour minute and second   |
 |5|multiple3and5 | Return the sum of all multiples from 2 and 5 bellow of a given number   |
 |6|phonenumber | Format numbers from an array into a phone number   |
 |7|primenumbers | return a string that represents a given number in prime number formatr   |
