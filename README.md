@@ -5,7 +5,7 @@ These are some challenges I have done on codewars platform. All solutions to the
 
 | \# | FOLDER | CHALLENGE |
 |----|--------|-----------|
-|1|buildtower | Build a pyramid with '*' based on floors number provide as parameter of a function   |
+|1|[buildtower](buildtower/) | Build a pyramid with '*' based on floors number provide as parameter of a function   |
 |2|capitalize | Capitalize every first letter in a word   |
 |3|directionsreduce | Reduce the redundant direction given in an array   |
 |4|duration | Given a number of seconds turn it in year day hour minute and second   |
