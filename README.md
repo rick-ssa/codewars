@@ -12,7 +12,8 @@ These are some challenges I have done on [codewars](https://www.codewars.com/use
 |[duration](duration/) | Given a number of seconds turn it in year day hour minute and second   |
 |[multiple3and5](multiple3and5/) | Return the sum of all multiples from 2 and 5 bellow of a given number   |
 |[phonenumber](phonenumber/) | Format numbers from an array into a phone number   |
-|[primenumbers](primenumbers/) | return a string that represents a given number in prime number formatr   |
+|[primenumbers](primenumbers/) | return a string that represents a given number in prime number format   |
+|[ranking](ranking/) | create a class to rank users like codewars did once   |
 |[reversestring](reversestring/) | Reverse all string in a word that has more than five letters   |
 |[rgbfunction](rgbfunction/) | Given 3 numbers representing rgb color turn it in hexadecimal   |
 |[rot13](rot13/) | Change letters to 13 letters after that only english alphabet   |

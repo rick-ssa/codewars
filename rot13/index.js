@@ -14,8 +14,3 @@ function rot13(message){
 }
 
 console.log (rot13 ('Te@st'))
-
-'a = 97'
-'z = 122'
-'A = 65'
-'Z = 90'
