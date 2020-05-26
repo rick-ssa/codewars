@@ -37,8 +37,9 @@ function User() {
         this.rank = ranks[rankByProgressIndex]
         if(!this.rank) {
             this.rank = 8
-            return 0
         }
+
+        if(this.rank === 8) return 0
 
         return value % 100
     }
