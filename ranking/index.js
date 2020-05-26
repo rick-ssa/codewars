@@ -49,6 +49,9 @@ function User() {
 //test *******************
 
 let user = new User()
-user.incProgress(-8)
-
-console.log(user.rank, user.progress)
+try {
+    user.incProgress(1)
+    console.log(user.rank, user.progress)
+} catch(err) {
+    console.log('sorry you have to insert any numbers between -8 and 8 except 0')
+}
