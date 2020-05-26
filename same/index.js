@@ -1,18 +1,23 @@
 
 function comp (array1, array2){
   if (!array1 || !array2) return false
-
-  let set1 = new Set (array1)
-  let set2 = new Set (array2)
   
-  if (set1.size !== set2.size) return false
+  if (array1.length !== array2.length) return false
 
-  for (item of set1) {
-    if (item < 0) return false
-    if (!set2.has (item ** 2)) return false
-  }
+  array1 = array1.sort((a,b)=>a-b)
+  array2 = array2.sort((a,b)=>a-b)
+  
+  let result = array1.reduce((hasSquared,value,index)=>{
+    if (hasSquared ===false) return false
 
-  return true
+    if(array2[index]!== Math.pow(value,2)) {
+      return false
+    } 
+
+    return true
+  },true)
+
+  return result
 }
 
-console.log(comp([2], [5]))
+console.log(comp([11, 144, 19, 161, 19, 144, 19, 11], [121, 14641, 20736, 361, 25921, 361, 20736, 361]))
